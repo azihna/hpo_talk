@@ -43,6 +43,7 @@ hpo = tune.run(
     objective,
     metric='mean_loss',
     mode='min',
+    search_alg=algo,
     num_samples=10,
     config=params
 )
