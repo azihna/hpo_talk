@@ -1,4 +1,3 @@
-#%%
 import numpy as np
 from sklearn import datasets, metrics, model_selection
 from hyperopt import hp, fmin, tpe, Trials
@@ -8,11 +7,9 @@ from xgboost import XGBRegressor
 data = datasets.fetch_california_housing()
 X, y = data['data'], data['target']
 
-# %%
 num_cv_folds = 5
 
-skfolds = model_selection.KFold(n_splits=num_cv_folds,
-                                random_state=42)
+skfolds = model_selection.KFold(n_splits=num_cv_folds)
 
 def objective(params):
     scores = []
@@ -42,5 +39,4 @@ hpo = fmin(fn=objective,
            max_evals=10,
            trials=trials)
 
-print('best run: {hpo}')
-# %%
+print(f'best run: {hpo}')
