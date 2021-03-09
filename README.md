@@ -1,4 +1,4 @@
-# hpo_talk
+# A Review of HPO Frameworks
 Code for Hyperparameter Optimization Talk for Python Ireland on Feb '21.
 
 ## Presentation
