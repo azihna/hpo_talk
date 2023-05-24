@@ -28,7 +28,7 @@ decorator @ file:///home/ktietz/src/ci/decorator_1611930055503/work
 docker==4.4.1
 entrypoints==0.3
 filelock==3.0.12
-Flask==1.1.2
+Flask==2.2.5
 future==0.18.2
 gitdb==4.0.5
 GitPython==3.1.11
