@@ -21,7 +21,7 @@ cmd2==1.5.0
 colorama @ file:///tmp/build/80754af9/colorama_1607707115595/work
 colorful==0.5.4
 colorlog==4.7.2
-cryptography==3.3.2
+cryptography==41.0.3
 cycler==0.10.0
 databricks-cli==0.14.1
 decorator @ file:///home/ktietz/src/ci/decorator_1611930055503/work
