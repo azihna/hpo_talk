@@ -48,7 +48,7 @@ isodate==0.6.0
 itsdangerous==1.1.0
 jedi==0.17.0
 Jinja2==2.11.3
-joblib==1.0.1
+joblib==1.2.0
 jsonschema==3.2.0
 jupyter-client @ file:///tmp/build/80754af9/jupyter_client_1601311786391/work
 jupyter-core @ file:///C:/ci/jupyter_core_1612213356021/work
